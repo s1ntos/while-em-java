@@ -25,7 +25,7 @@ while (senha != senhaCorreta) {
 java
 Sempre exibir os detalhes
 
-Copiar
+
 int x = 0;
 while (x < 5) {
     System.out.println(x); // loop infinito se esquecer do x++
@@ -36,7 +36,7 @@ while (x < 5) {
 java
 Sempre exibir os detalhes
 
-Copiar
+
 int x = 0;
 while (x < 5) {
     System.out.println(x);
@@ -51,7 +51,7 @@ Variáveis que fazem parte da condição devem ser declaradas antes do loop.
 ```
 Sempre exibir os detalhes
 
-Copiar
+
 int tentativa = 0;
 while (tentativa < 3) {
     tentativa++;
@@ -71,7 +71,7 @@ Senão você perde o valor delas a cada repetição.
 java
 Sempre exibir os detalhes
 
-Copiar
+
 while (true) {
     int senha = sc.nextInt(); // redefinida sempre aqui
 }
@@ -80,7 +80,7 @@ while (true) {
 java
 Sempre exibir os detalhes
 
-Copiar
+
 int senha;
 while (true) {
     senha = sc.nextInt(); // mesma variável, só atualiza
@@ -93,7 +93,6 @@ Quando quiser limitar tentativas, rodadas, etc., use um contador.
 ```
 Sempre exibir os detalhes
 
-Copiar
 int tentativas = 0;
 while (tentativas < 3) {
     tentativas++;
@@ -107,7 +106,6 @@ Para sair do while no meio, você pode usar break.
 
 Sempre exibir os detalhes
 
-Copiar
 while (true) {
     int opcao = sc.nextInt();
     if (opcao == 3) {
@@ -122,7 +120,7 @@ Use while para obrigar o usuário a digitar um valor válido.
 ```
 Sempre exibir os detalhes
 
-Copiar
+
 int idade = -1;
 while (idade < 0) {
     System.out.print("Digite uma idade válida: ");
