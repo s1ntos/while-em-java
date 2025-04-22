@@ -9,7 +9,7 @@
 
 📌 Exemplo:
 
-```java
+java
 while (senha != senhaCorreta) {
     // Repete até que a senha esteja certa
 }
