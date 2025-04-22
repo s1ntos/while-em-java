@@ -19,7 +19,7 @@ while (senha != senhaCorreta) {
 ## ✅ 2. Evite laço infinito sem querer
 ```
 ➤ Sempre garanta que alguma variável da condição vai mudar dentro do while.
-
+```
 🛑 ERRADO:
 
 java
@@ -30,6 +30,8 @@ int x = 0;
 while (x < 5) {
     System.out.println(x); // loop infinito se esquecer do x++
 }
+```
+```
 ✅ CERTO:
 
 java
@@ -41,6 +43,7 @@ while (x < 5) {
     System.out.println(x);
     x++; // agora x vai crescer e sair do while
 }
+```
 ```
 ## ✅ 3. Inicie variáveis fora do while
 Variáveis que fazem parte da condição devem ser declaradas antes do loop.
