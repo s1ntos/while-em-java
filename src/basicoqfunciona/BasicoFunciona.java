@@ -17,7 +17,6 @@ public class BasicoFunciona {
         int senha2 = sc.nextInt();
 
         int tentativa = 0;
-
         while (senha2 != senha && tentativa < 3) {
             System.out.println("Senha incorreta. Tente novamente:");
             senha2 = sc.nextInt();
